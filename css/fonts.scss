@@ -1,0 +1,40 @@
+---
+primarylight: '#ceffed'
+primarydark: '#00af8c'
+---
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+.indieflower {
+  font-family: 'Indie Flower', cursive;
+}
+.fredericka {
+  font-family: 'Fredericka the Great', cursive;
+}
+.viga {
+  font-family: 'Viga', sans-serif;
+}
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.ibmplexmono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.text-primarylight {
+  color: {{ page.primarylight }};
+}
+
+.text-primarydark {
+  color: {{page.primarydark }};
+}
+
+.text-shadowlight {
+  text-shadow: 0px 0px 5px {{page.primarylight}}; 
+}
+
+.text-shadowdark {
+  text-shadow: 0px 0px 5px {{page.primarydark}}; 
+}
+
