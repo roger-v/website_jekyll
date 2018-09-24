@@ -42,8 +42,9 @@ primarydark: '#00af8c'
   align-items: center;
 }
 
-#projects img {
+#projects img:hover {
   /* border-radius: 15%; */
+  opacity:0.9;
 }
 
 .roundedimg {
