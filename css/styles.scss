@@ -21,6 +21,10 @@ primarydark: '#00af8c'
   background: linear-gradient(black 10%, {{page.darkgray}});
 }
 
+.bg-darkgradient-3 {
+  background: linear-gradient(#333 10%, {{page.darkgray}});
+}
+
 .bg-darkgray {
   background-color: {{page.darkgray}};
 }
@@ -51,6 +55,14 @@ primarydark: '#00af8c'
   /* border-radius: 15%; */
 }
 
+.proj_window {
+  position:fixed;
+  z-index:2;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .desc {
   display: none;
 }
@@ -77,4 +89,21 @@ primarydark: '#00af8c'
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#close_proj_window {
+  float: right;
+  position:relative;
+  cursor:pointer;
+}
+
+.short {
+  display:none;
+}
+
+.boxglow {
+  -webkit-box-shadow:0 0 20px {{page.primarylight}}; 
+  -moz-box-shadow: 0 0 20px {{page.primarylight}}; 
+  box-shadow:0 0 20px {{page.primarylight}};
+
 }
